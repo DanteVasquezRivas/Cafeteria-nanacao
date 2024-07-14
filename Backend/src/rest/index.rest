@@ -1,0 +1,25 @@
+#### Registrar café
+POST http://127.0.0.1:3000/api/cafes/register
+Content-Type: application/json
+
+{
+    "nombre": "te"
+}
+
+
+#### Obtener café
+GET http://127.0.0.1:3000/api/cafes/
+Content-Type: application/json
+
+#### Actualizar café
+PUT http://127.0.0.1:3000/api/cafes/actualizar/72
+Content-Type: application/json
+
+{
+   "id": 72,
+    "nombre": "Nuevossss"
+}
+
+#### Borrar café
+DELETE http://127.0.0.1:3000/api/cafes/borrar/72
+Content-Type: application/json
